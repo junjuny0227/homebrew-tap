@@ -2,24 +2,24 @@
 class Repot < Formula
   desc "Scan a development machine and export a script that restores it"
   homepage "https://github.com/junjuny0227/Repot"
-  version "0.8.0"
+  version "0.9.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/junjuny0227/Repot/releases/download/v0.8.0/repot-cli-0.8.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d21fe3d1d7b97d427970a017b3fc98320dfe162b7e256775b62d94b4e58143e5"
+      url "https://github.com/junjuny0227/Repot/releases/download/v0.9.0/repot-cli-0.9.0-aarch64-apple-darwin.tar.gz"
+      sha256 "9708c188835978a8c1539ba62ac6b7e6818cece6a7d4ab33aa3df52808ee299a"
     end
     on_intel do
-      url "https://github.com/junjuny0227/Repot/releases/download/v0.8.0/repot-cli-0.8.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5f694bfa79d5103873aec8f9f6f235bf1d893d299e62363efdab489c1f57ff05"
+      url "https://github.com/junjuny0227/Repot/releases/download/v0.9.0/repot-cli-0.9.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b75711fe812f75952494045c283494a236e2e1232b01d4229760823ec13d3474"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/junjuny0227/Repot/releases/download/v0.8.0/repot-cli-0.8.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "96101e108eba61c96ac500ff1b0d0430ffda547cbb8711021727f62fedfa28f4"
+      url "https://github.com/junjuny0227/Repot/releases/download/v0.9.0/repot-cli-0.9.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4401b0ca7ee751c8fb90d7aeb94bab684adaa58a716e45eb86ce06814704374f"
     end
   end
 
