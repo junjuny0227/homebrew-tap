@@ -1,6 +1,6 @@
 cask "doorplate" do
-  version "0.2.0"
-  sha256 "b0bb679e2a3632488090da680c249a0ebcc28eef44194008acb76212990a8e52"
+  version "0.2.1"
+  sha256 "caffd5148d8ad02cecbd5a208d4d1b7aebc10311daeab90eeb056d0522272938"
 
   url "https://github.com/junjuny0227/Doorplate/releases/download/v#{version}/Doorplate-#{version}.zip"
   name "Doorplate"
